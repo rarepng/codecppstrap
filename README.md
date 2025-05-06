@@ -1,2 +1,3 @@
 ﻿
-## Starter for code/codium and similar for working with c++20, gcc/mingw and cmake
+## Starter for code/codium and similar
+working with c++20, gcc/mingw, ninja, gdb and cmake
