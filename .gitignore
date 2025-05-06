@@ -7,6 +7,7 @@ gbuild
 .vs
 vs
 CMakeSettings.json
+.gitignore
 CMakePresets.json
 CMakeLists.txt.user
 dist
