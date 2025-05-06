@@ -1,0 +1,52 @@
+﻿{
+    "configurations": [
+        {
+            "buildCommandArgs": "",
+            "buildRoot": "${projectDir}\\build\\test\\${name}",
+            "cmakeCommandArgs": "",
+            "cmakeExecutable": "E:/miasma/cmake/bin/cmake.exe",
+            "configurationType": "Debug",
+            "ctestCommandArgs": "",
+            "generator": "Ninja",
+            "inheritEnvironments": [],
+            "installRoot": "${projectDir}\\dist\\test\\${name}",
+            "name": "dbg",
+            "variables": [
+                {
+                    "name": "CMAKE_C_COMPILER",
+                    "value": "gcc",
+                    "type": "STRING"
+                },
+                {
+                    "name": "CMAKE_CXX_COMPILER",
+                    "value": "g++",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "name": "dbg",
+            "description": "Debug build with GCC, Ninja, C++20",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build/dbg",
+            "cacheVariables": {
+              "CMAKE_BUILD_TYPE":      "Debug",
+              "CMAKE_C_COMPILER":      "gcc",
+              "CMAKE_CXX_COMPILER":    "g++",
+              "CMAKE_CXX_STANDARD":    "20"
+            }
+          },
+          {
+            "name": "rel",
+            "description": "Release build with GCC, Ninja, C++20",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build/rel",
+            "cacheVariables": {
+              "CMAKE_BUILD_TYPE":      "Release",
+              "CMAKE_C_COMPILER":      "gcc",
+              "CMAKE_CXX_COMPILER":    "g++",
+              "CMAKE_CXX_STANDARD":    "20"
+            }
+          }
+    ]
+}
