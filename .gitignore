@@ -1,0 +1,16 @@
+build
+build_static
+cmake_more_cache
+resources
+vsbuild
+gbuild
+.vs
+vs
+CMakeSettings.json
+CMakePresets.json
+CMakeLists.txt.user
+dist
+.config
+.cache
+.vscode
+*.swp
