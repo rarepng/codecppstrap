@@ -114,5 +114,15 @@
       "path": "pwsh"
     }
   },
-  "terminal.integrated.defaultProfile.windows": "pwsh"
+  "terminal.integrated.defaultProfile.windows": "pwsh",
+  
+  "files.exclude": {
+    "**/build": true,
+    "**/cmake_more_cache": true
+  },
+  "search.exclude": {
+    "**/build": true,
+    "**/cmake_more_cache": true
+  }
+
 }
