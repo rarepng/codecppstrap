@@ -1,6 +1,7 @@
 {
   "workbench.editor.showTabs": "none",
   "explorer.openEditors.visible": 1,
+  "C_Cpp.clang_format_fallbackStyle": "{ BreakBeforeBraces: Attach, UseTab: Always, ColumnLimit: 120 }",
     "files.associations": {
       "future": "cpp",
       "new": "cpp",
