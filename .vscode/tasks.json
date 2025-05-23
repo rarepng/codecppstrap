@@ -34,7 +34,27 @@
             "type": "shell",
             "command": "cmake --build --preset build_dbg",
             "group": "build"
-          }
+          },
+        {
+            "label": "astyle format current",
+            "type": "shell",
+            "command": "astyle",
+            "args": ["-n","-t","${file}"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "astyle format ALL",
+            "type": "shell",
+            "command": "astyle",
+            "args": ["-n","-t","-r","${workspaceFolder}/src/*.cpp","${workspaceFolder}/include/*.hpp"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
     ],
     "version": "2.0.0"
 }
