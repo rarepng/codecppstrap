@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 4.0)
-project(rview2 LANGUAGES CXX)
+project(rnew LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -19,4 +19,4 @@ endif()
 
 file(GLOB PROJECT_SOURCES "src/main.cpp" "src/*/*.cpp")
 
-add_executable(rvie ${PROJECT_SOURCES})
+add_executable(rnew ${PROJECT_SOURCES})
