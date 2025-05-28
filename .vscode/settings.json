@@ -101,15 +101,12 @@
       "xutility": "cpp",
       "text_encoding": "cpp"
     },
-    // "hide"
   "cmake.generator": "Ninja",
 
   "cmake.defaultConfigurePreset": "dbg",
   "cmake.defaultBuildPreset":     "build_dbg",
 
   "cmake.configureSettings": {
-  }
-    "cmake.configureSettings": {
   },
   "terminal.integrated.profiles.windows": {
     "pwsh": {
